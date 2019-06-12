@@ -1,3 +1,8 @@
+https://channelhopper.tv
+
+***All UK live TV and Catch-up sites abroad.
+BBC, iPlayer, ITV Hub, etc.
+For all devices including your TV. No additional hardwar or contract.***
 # Server Schematic
 
 We have 2 Servers on which services like dnsmasq, netfilter, 3proxy, sniproxy, access synchronizer are running.
