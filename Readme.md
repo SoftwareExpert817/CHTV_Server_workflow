@@ -1,3 +1,4 @@
+![IPMapping](https://user-images.githubusercontent.com/51321441/59354613-027e9780-8d58-11e9-9a52-e0247a79f83d.png)
 # Server Schematic
 
 We have 2 Servers on which services like dnsmasq, netfilter, 3proxy, sniproxy, access synchronizer are running.
