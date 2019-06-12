@@ -5,8 +5,12 @@ BBC, iPlayer, ITV Hub, etc.
 For all devices including your TV. No additional hardwar or contract.***
 # Server Schematic
 
+![Workflow](https://user-images.githubusercontent.com/51321441/59355881-6904b500-8d5a-11e9-991f-05e0b4566dfd.png)
+
 We have 2 Servers on which services like dnsmasq, netfilter, 3proxy, sniproxy, access synchronizer are running.
 We can divide this services mainly in 4 parts.
+
+![Schematic](https://user-images.githubusercontent.com/51321441/59355956-876ab080-8d5a-11e9-8484-fd3acbf6c968.png)
 
 *DNSMasq or PAC system*
 ```
@@ -161,6 +165,8 @@ Focus on the From_URL parameter. If the customer registers his network using his
 ```
 
 ### *** IPMapping on UK2
+
+![IPMapping](https://user-images.githubusercontent.com/51321441/59356012-a1a48e80-8d5a-11e9-930f-9c2e9dd74c69.png)
 
 *This is deployed on Server 2 for BBC channels*
 To control outgoing IP, the destination port is being altered, and then destination port gets fixed back to normal (80 or 443), and then outgoing IP changed via netfilter rules.
